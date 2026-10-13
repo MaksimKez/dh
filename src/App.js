@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Message from "./Message";
+import Power from "./Power";
+import Complex from "./Complex";
 
 function App() {
+  const [text, setText] = useState("Welcome to the first React application");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Hello App</h1>
       </header>
+      <main>
+        <section className="card">
+          <h2>Message</h2>
+          <label>
+            Message text
+            <input
+              type="text"
+              value={text}
+              onChange={(event) => setText(event.target.value)}
+            />
+          </label>
+          <Message message={text} />
+        </section>
+        <Power />
+        <Complex />
+      </main>
     </div>
   );
 }
