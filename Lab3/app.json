@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Lab 3",
+    "slug": "lab3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The hero portrait is chosen from your photos."
+        }
+      ]
+    ]
+  }
+}
