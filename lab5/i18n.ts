@@ -12,13 +12,13 @@ i18n.use(initReactI18next).init({
         changeTheme: "Change the motif (bright/dark)",
       },
     },
-    ru: {
+    pl: {
       translation: {
-        title: "Пепельные врата",
-        greeting: "Здравствуйте, {{name}}",
-        namePlaceholder: "Введите имя...",
-        changeLanguage: "Сменить язык",
-        changeTheme: "Сменить мотив (светлый/тёмный)",
+        title: "Popielna Brama",
+        greeting: "Witaj, {{name}}",
+        namePlaceholder: "Wpisz imię...",
+        changeLanguage: "Zmień język",
+        changeTheme: "Zmień motyw (jasny/ciemny)",
       },
     },
   },

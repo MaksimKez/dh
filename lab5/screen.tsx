@@ -15,7 +15,7 @@ export default function WelcomeScreen() {
   const [playerName, setPlayerName] = useState("");
 
   const toggleLanguage = () => {
-    const next = i18n.language.startsWith("ru") ? "en" : "ru";
+    const next = i18n.language.startsWith("pl") ? "en" : "pl";
     i18n.changeLanguage(next);
   };
 
