@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Lab 5",
+    "slug": "lab5",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light"
+  }
+}
